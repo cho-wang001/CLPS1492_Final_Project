@@ -81,7 +81,7 @@ func (ev *LEDEnv) Defaults() {
 	ev.XFormRand.TransX.Set(-0.25, 0.25)
 	ev.XFormRand.TransY.Set(-0.25, 0.25)
 	ev.XFormRand.Scale.Set(0.7, 1)
-	ev.XFormRand.Rot.Set(-3.6, 3.6)
+	ev.XFormRand.Rot.Set(-10, 10)
 }
 
 func (ev *LEDEnv) Init(run int) {
