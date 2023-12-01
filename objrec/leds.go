@@ -27,7 +27,7 @@ type LEDraw struct {
 
 func (ld *LEDraw) Defaults() {
 	ld.ImgSize = image.Point{120, 120}
-	ld.Width = 4
+	ld.Width = 5
 	ld.Size = 0.6
 	ld.LineColor = "white"
 	ld.BgColor = "black"
